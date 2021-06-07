@@ -254,9 +254,7 @@ function esPrimo(numero) {
   
   }
 
- 
-
-  function tablaDelSeis(){
+   function tablaDelSeis(){
     //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
     //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
     //Escribe tu código aquí  
@@ -291,8 +289,8 @@ function esPrimo(numero) {
         
         i= i + 1;
         x = x + 5;
-        console.log(i)
-        console.log(x)   
+        //console.log(i)
+        //console.log(x)   
     }
     while(i < 8)
     return x;
